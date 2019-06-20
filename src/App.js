@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import MapContainer from './components/components/MapContainer/MapContainer'
 
-function App() {
+function App () {
   return (
-    <div className="App">
+    <div className='App'>
       HungryApp
+      <MapContainer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
