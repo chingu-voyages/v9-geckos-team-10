@@ -1,14 +1,16 @@
-import React from 'react'
-import './App.css'
-import MapContainer from './components/components/MapContainer/MapContainer'
+import React from "react";
+import "./App.css";
+import MapContainer from "./components/components/MapContainer/MapContainer";
+import Chat from "./components/components/UI/Chat/Chat";
 
-function App () {
+function App() {
   return (
-    <div className='App'>
+    <div className="App">
       HungryApp
-      <MapContainer />
+      {/* <MapContainer /> */}
+      <Chat />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
